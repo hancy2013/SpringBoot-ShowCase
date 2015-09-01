@@ -52,7 +52,7 @@ public class Role implements Serializable{
             if(StringUtils.isEmpty(resourceIdStr)){
                 continue;
             }
-            getResourceIds().add(Long.valueOf(resourceIdsStr));
+            getResourceIds().add(Long.valueOf(resourceIdStr));
         }
     }
 
